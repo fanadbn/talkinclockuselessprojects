@@ -17,7 +17,7 @@ CAM_INDEX = 0  # The index of the webcam to use. Change if using a different cam
 
 # Global variable for the API key.
 # IMPORTANT: PASTE YOUR API KEY HERE. DO NOT SHARE THIS CODE WITH YOUR KEY IN IT.
-apiKey = "AIzaSyB4F1hWxFdfBgQuNCmTDKZltqTJYULfLvY"
+apiKey = "#GEMINI_API_KEY"
 
 # Check if the API key is available
 if not apiKey:
@@ -202,3 +202,4 @@ while True:
 # Clean up: release the webcam and destroy all OpenCV windows
 cap.release()
 cv2.destroyAllWindows()
+
